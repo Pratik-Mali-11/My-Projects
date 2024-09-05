@@ -1,0 +1,247 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRATIK MALI- portfolio</title>
+    <link rel="stylesheet" href="style.css">    
+    <script src="https://kit.fontawesome.com/038eff67bc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src = "images/name.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href = "#header">Home</a></li>
+                    <li><a href = "#about">About</a></li>
+                    <li><a href = "#Services">Services</a></li>
+                    <li><a href = "#portfolio">Portfolio</a></li>
+                    <li><a href = "#Contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()" ></i>
+                </ul>
+                <i class="fas fa-bars" onclick= "openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>FULL STACK DEVELOPER</p>
+                <h1>Hi, I am <span> Pratik Mali</span> <br> from Virar</h1>
+            </div>
+        </div>
+    </div>
+    <!-- _____________about_________________ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/img1.JPG" style="width: 300px;">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"> About me</h1>
+                    <p>A passionate and detail-oriented computer science graduate seeking an entry-level software developer position to
+                        leverage my skills in programming, problem-solving, and software development to contribute to innovative projects and
+                        gain professional experience.Seeking to leverage expertise in full-stack development to contribute to innovative projects
+                        in a collaborative team environment.Dedicated to continuous learning 
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links " onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links " onclick="opentab('Education')">Education</p>
+                    </div>
+                    
+                    <!-- ______skills______________ -->                    
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Full Stack Developer: <br></span>Both Front-end and Back-end development</li>
+                            <li><span>Java Developer: <br></span>Programming based on the requirements</li>
+                            <li><span>Front-end: <br></span>Designing the user interface for the websites</li>
+                        </ul>
+                    </div>
+
+                    <!-- __________experience__________________ -->
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Full Stack Web Developer [Aug'22 to Jan'23]: <br></span>Worked as a Web Developer intern at The Innovative Solutions, Nashik</li>
+                            <li><span>Java Developer Intern[Jul'24 to Aug'24]: <br></span>Internship And Training as a Java Developer at the Internship Studio</li>
+                            
+                        </ul>
+                    </div>
+
+                    <!-- __________________education______________________ -->
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Masters in Computer Engineering(2024-present):<br></span>Pursuing Master in Computer Engineering From D.J. Sanghavi College of Engineering</li>
+                            <li><span>Bachlores in Computer Engineering (2020-2024): <br></span>Pursuied B.E. In Computer Engineering with a overall CGPA: 8.96</li>
+                            <li><span>HSC From Mumbai Divisional Board(2020)<br></span>Completed HSC with total percentage of 76.92</li>
+                            <li><span>SSC From Mumbai Divisional Board (2018) <br></span>Completed SSC with total percentage of 89.60</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ----------services-------------------- -->
+    <div id="Services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Font-end Dev</h2>
+                    <p>Front-End Developer Specializing in Creating Responsive, Interactive, and User-Centric Web Applications.Bringing Websites to Life with Clean, Efficient, and Modern Front-End Development.</br>Transforming Designs into Seamless Digital Experiences with Expert Front-End Development.</p>
+                    <a href="#">Learn more...</a>
+                </div>
+
+                <div>
+                    <i class="fa-regular fa-file-code"></i>
+                    <h2>Full Stack Dev</h2>
+                    <p>Creative Web Developer Building Modern, Responsive Websites that Engage and Convert.
+
+                        Transforming Ideas into Interactive, User-Friendly Websites.
+                        
+                        Crafting Customized Web Solutions to Enhance User Experience and Drive Business Growth.
+                        
+                        Passionate Web Developer Specializing in HTML, CSS, JavaScript, and Cutting-Edge Frameworks</p>
+                    <a href="#">Learn more...</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>Java development</h2>
+                    <p>Full-Stack Java Developer – Crafting End-to-End Solutions with Robust Backend and Dynamic Frontend.</p>
+                    <a href="#">Learn more...</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- _______porfolio__________________ -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">
+                My work / Certifications
+            </h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/java.jpg">
+                    <div class="layer">
+                        <h3>Java Training</h3>
+                        <p>This training provided a deep dive into:
+
+                            Fundamental Java concepts and syntax
+                            Object-Oriented Programming (OOP) principles
+                            Exception handling, Collections framework, and multithreading
+                            Practical hands-on projects
+                            The experience has significantly strengthened my Java programming skills and prepared me to tackle real-world challenges. Explore my portfolio to see how these core Java skills have been applied in various projects!</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/certification.jpg">
+                    <div class="layer">
+                        <h3>Node.js certification</h3>
+                        <p>Certified in Node.js from Scaler - Gained expertise in building scalable, high-performance server-side applications with Node.js. Proficient in asynchronous programming, API development, database integration, and implementing security best practices. Ready to tackle real-world challenges with hands-on experience in developing and deploying Node.js applications</p>
+                        <a href="https://moonshot.scaler.com/s/sl/Nim0WzkhEO"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>                
+                
+                <div class="work">
+                    <img src="images/isro.jpg">
+                    <div class="layer">
+                        <h3>ISRO, IIRS AI/ML for geo data Analysis Course</h3>
+                        <p>From foundational concepts to cutting-edge applications, my portfolio highlights:
+
+                            AI/ML projects with real-world impact
+                            Deep Learning applications including CNN, RNN, YOLO, and more
+                            Machine Learning techniques using Google Earth Engine
+                            Python-driven models and analytics</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+           <a href="#" class="btn ">See more</a>
+        </div>
+    </div>
+    <!-- ----------------------------------Contact----------------------------- -->
+<div id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="Contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-envelope"></i>malipratik097@gmail.com</p>
+                <p><i class="fa-solid fa-mobile"></i>+918956121829</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <a href="downloads/Pratik_Mali_+918956121829.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="Contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name = "Name" placeholder="Your Name..." required>
+                <input type="email" name = "email" placeholder="Your Email..." required>
+                <textarea name="Message" rows = "6" placeholder="Your Messages"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <spa id="msg"></span>
+        </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Pratik.<i class="fa-solid fa-heart-circle-check"></i> Made by Franks</p>
+    </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right="0";
+    }
+    function closemenu(){
+        sidemeu.style.right="-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzcKHYct_Pwqbf00xJzIn6W8v2Z7NFXuTSXLN1PZgnDzcuTCLx3x7Czm2rXYAvdcyfsxA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg");
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML ="Message sent successfully!!"
+            setTimeout(function(){
+                msg.innerHTML = "";
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
