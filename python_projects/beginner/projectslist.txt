@@ -1,0 +1,35 @@
+				python beginner level project list done by pratik mali
+
+
+1] project name: 			emoji to text
+about: in this project any emoji entered in the text form, it gives the info about the emoji
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2] project name: 			hangman using tkinter
+about: a simple Hangman game implementation using Tkinter in Python. 
+This will give you a basic GUI for the game, where the player can guess letters, 
+and the game will display the word with blanks for unguessed letters.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3] project : 			numberguessing
+about: guess a number with a range if guessed correctly in limited number of attempt player wins and if guesses correctly looses.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+4] project:				wordguessing
+about : same as numbergueesing here player has to guess the correct characters to form a word
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+5] project:				wordguessing game using pygame
+about: similar to wordguessing but the advanced version implemented in pygame with more gui based.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+6] project: 				transaction receipt generator
+about: generates a transaction receipt using the item details, purachasing deatils from the user
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+7]project: 				voice recorder
+about: a simple voice recording application in python using pyaudio and wave librarires.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+8] project: 				
