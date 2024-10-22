@@ -1,1 +1,0 @@
-print("This is diabetes predictor using ml")
