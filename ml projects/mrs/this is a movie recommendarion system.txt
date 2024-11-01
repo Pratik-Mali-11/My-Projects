@@ -1,0 +1,3 @@
+This is a movie recommendation system created using python programming language,
+implementing various machine learning techniques to recommend a movie to the user according to 
+the users entry......
